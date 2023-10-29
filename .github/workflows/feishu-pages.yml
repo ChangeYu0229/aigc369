@@ -1,5 +1,13 @@
 on:
   push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   feishu-pages:
     name: Feishu Pages Export
@@ -10,9 +18,24 @@ jobs:
         with:
           path: dist/.cache
           key: cache-dist
-      - name: Setup node
+      - name: Exporting
         env:
-          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
-          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
-          FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
+          FEISHU_APP_ID: ${{ secrets.cli_a5b3792115fb900b }}
+          FEISHU_APP_SECRET: ${{ secrets.qrPPgUntI6Ntm6chO2NwphAhIv87hUoz }}
+          FEISHU_SPACE_ID: ${{ secrets.7259534943351472132 }}
         uses: longbridgeapp/feishu-pages@main
+      - name: Build Pages
+        run: |
+          cp -r dist/docs ./
+          cp dist/docs.json ./
+          yarn
+          yarn build
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './website/.vitepress/dist'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
