@@ -25,7 +25,7 @@ sidebar_position: 14
 
 ## API 基础知识科普
 
-[12、OpenAI API 知识科普](WKv0wxTVpivDyxkabGYcz2mXnXb) 
+[12、OpenAI API 知识科普]
 
 ## 如何检验 GPT3.5 还是 GPT4？
 
