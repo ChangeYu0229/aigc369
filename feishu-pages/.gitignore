@@ -1,9 +1,0 @@
-.env
-dist/
-out/
-node_modules/
-.DS_Store
-**/*/.vitepress/cache
-.cache/
-website/docs/**/*
-!website/docs/index.md
