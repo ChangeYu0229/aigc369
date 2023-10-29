@@ -22,7 +22,7 @@ jobs:
         env:
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
-          FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
+          FEISHU_SPACE_ID: ‘7259534943351472132’
         uses: longbridgeapp/feishu-pages@main
       - name: Build Pages
         run: |
