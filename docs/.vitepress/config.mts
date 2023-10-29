@@ -46,10 +46,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Google 谷歌专栏',
         items: [
-          { text: 'Markdown Examples', link: '/PemvwzFC1i9pNOkCJVQcykNInPb.md' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '谷歌GV是什么？Google Voice号码有哪些用途和功能？', link: 'docs/PemvwzFC1i9pNOkCJVQcykNInPb/EwIuwbwRKihk0akvAiXcjUatnqb.md' },
+          { text: '谷歌账号 Google Voice 登陆以及常见使用问题', link: 'docs/PemvwzFC1i9pNOkCJVQcykNInPb/UDjNwv5SoiksHNkSkZjc88BJnxc.md' }
         ]
       }
     ],
