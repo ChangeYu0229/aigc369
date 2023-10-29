@@ -1,0 +1,18 @@
+on:
+  push:
+jobs:
+  feishu-pages:
+    name: Feishu Pages Export
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/cache@v3
+        with:
+          path: dist/.cache
+          key: cache-dist
+      - name: Setup node
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
+        uses: longbridgeapp/feishu-pages@main
