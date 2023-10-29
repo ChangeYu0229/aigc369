@@ -48,7 +48,7 @@ export default defineConfig({
       {
         text: 'Google 谷歌专栏',
         items: [
-          { text: '谷歌GV是什么？Google Voice号码有哪些用途和功能？', link: '/PemvwzFC1i9pNOkCJVQcykNInPb/EwIuwbwRKihk0akvAiXcjUatnqb.md' },
+          { text: '谷歌GV是什么？Google Voice号码有哪些用途和功能？', link: 'https://ssw9noe1h6.feishu.cn/wiki/AbJ1wV4dNi4oPKkXkrmc0UZBn4B' },
           { text: '谷歌账号 Google Voice 登陆以及常见使用问题', link: '/PemvwzFC1i9pNOkCJVQcykNInPb/UDjNwv5SoiksHNkSkZjc88BJnxc.md' }
         ]
       }
