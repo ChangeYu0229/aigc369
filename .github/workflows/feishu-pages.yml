@@ -20,9 +20,9 @@ jobs:
           key: cache-dist
       - name: Exporting
         env:
-          FEISHU_APP_ID: 'cli_a5b3792115fb900b'
-          FEISHU_APP_SECRET: 'qrPPgUntI6Ntm6chO2NwphAhIv87hUoz'
-          FEISHU_SPACE_ID: ‘7259534943351472132’
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
         uses: longbridgeapp/feishu-pages@main
       - name: Build Pages
         run: |
