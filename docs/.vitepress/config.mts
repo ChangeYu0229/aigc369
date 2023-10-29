@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/SUMMARY' },
+          { text: 'Markdown Examples', link: '/api-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
