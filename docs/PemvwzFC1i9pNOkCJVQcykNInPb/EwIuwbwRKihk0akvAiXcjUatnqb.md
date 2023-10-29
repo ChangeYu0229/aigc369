@@ -34,7 +34,7 @@ Google Voice 是由 Google 推出的 VOIP 服务，又称GV号或者谷歌Voice�
 
 Google Voice正常使用是免费的，在不充值的情况下收短信完全免费，向美国/加拿大打电话和发短信免费。打电话到国际其它区会收费，但费用很低，具体费用大家可以到谷歌官方：https://www.google.com/voice/b/0/rates?hl=zh-CN 查询。
 
-## Google Voice资费详情：
+# Google Voice资费详情：
 
 （1）拨打美国和加拿大免费（在非美国加拿大地区拨打，1美分/分钟。GV给美国号码发送短信也是免费，但仅限美国）
 （2）拨打美国维尔京群岛，需要2美分/分钟（这是唯一在美国的例外情况）。
