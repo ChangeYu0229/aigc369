@@ -5,8 +5,6 @@ sidebar_position: 0
 ---
 
 
-# 谷歌GV是什么？Google Voice号码有哪些用途和功能？
-
 # 1、Google Voice 是什么？
 
 Google Voice 是由 Google 推出的 VOIP 服务，又称GV号或者谷歌Voice账号，也就是你得到了一个虚拟的美国电话号码，可以用来接听被绑定的美国实体卡号，也可以单独拨打电话、接收短信，用Google Voice拨打美国号码免费，其他地区费用也非常低。
